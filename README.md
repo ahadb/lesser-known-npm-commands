@@ -1,4 +1,4 @@
-## NPM COMMANDS
+## LESSER KNOWN NPM COMMANDS
 
 We know the basic `npm` commands:
  
