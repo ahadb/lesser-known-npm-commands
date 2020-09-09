@@ -7,7 +7,7 @@ We know the basic `npm` commands:
 * `link`
 * `update`
 * flags, `--save-dev`
-* shorthand `i`, `t`, `ci` etc
+* shorthand `i`, `t`, `ci`, `-D`, `-S` etc
 
 ...but lets take a look at some other useful and lesser commands that we can add to our tool belt.
 
@@ -42,6 +42,24 @@ Check to see installed packages at a particular depth
 ```bash
 # at a particular depth, in this case first level of tree
 npm ls -g --depth=0
+```
+
+#### `npm home react`
+
+Opens up the homepage for the package
+
+```bash
+# this will open up the home page for the package
+npm home react
+```
+
+#### `npm repo fp-ts`
+
+Opens up the github repo page for the package
+
+```bash
+# this will open up the github repo page for the package
+npm repo fp-ts
 ```
 
 #### `npm prune`
