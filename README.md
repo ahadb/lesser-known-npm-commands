@@ -1,4 +1,4 @@
-## Lesser Known NPM Commands
+# Lesser Known NPM Commands
 
 We know the basic `npm` commands:
  
@@ -44,7 +44,7 @@ Check to see installed packages at a particular depth
 npm ls -g --depth=0
 ```
 
-#### `npm home react`
+### `npm home react`
 
 Opens up the homepage for the package
 
