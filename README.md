@@ -1,4 +1,4 @@
-## LESSER KNOWN NPM COMMANDS
+## Lesser Known NPM Commands
 
 We know the basic `npm` commands:
  
@@ -11,7 +11,7 @@ We know the basic `npm` commands:
 
 ...but lets take a look at some other useful and lesser commands that we can add to our tool belt.
 
-#### `npm pack`
+### `npm pack`
 
 Test if our package installs without publishing
 
@@ -26,7 +26,7 @@ cd ~/foo
 npm install ~/package/package.1.0.0.tgz
 ```
 
-#### `npm outdated`
+### `npm outdated`
 
 Check to see outdated packages
 
@@ -35,7 +35,7 @@ Check to see outdated packages
 npm outdated
 ```
 
-#### `npm ls -g --depth=0` || `npm ls --depth=0`
+### `npm ls -g --depth=0` || `npm ls --depth=0`
 
 Check to see installed packages at a particular depth
 
@@ -53,7 +53,7 @@ Opens up the homepage for the package
 npm home react
 ```
 
-#### `npm repo fp-ts`
+### `npm repo fp-ts`
 
 Opens up the github repo page for the package
 
@@ -62,7 +62,7 @@ Opens up the github repo page for the package
 npm repo fp-ts
 ```
 
-#### `npm prune`
+### `npm prune`
 
 Removes packages not listed as parent package deps
 
@@ -74,7 +74,7 @@ audited 9 packages in 0.809s
 found 0 vulnerabilities
 ```
 
-#### `npm ls`
+### `npm ls`
 
 Lists installed packages, you can use `--depth` here, nice ..
 
@@ -92,7 +92,7 @@ npm ls -g --depth=0
 npm ls --prod
 ```
 
-#### `npm install --dry-run` 
+### `npm install --dry-run` 
 
 Only reports what will be install, but does not install it
 
@@ -106,7 +106,7 @@ found 0 vulnerabilities
 
 ```
 
-#### `npm dedupe`
+### `npm dedupe`
 
 Remove duplicate packages from `node_modules`
 
@@ -114,7 +114,7 @@ Remove duplicate packages from `node_modules`
 npm dedupe
 ```
 
-#### `npm i expressjs/morgan`
+### `npm i expressjs/morgan`
 
 Install a package via git repo at actual commit you want, default will be at `head`
 
